@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+    <AssemblyName>taskhostw</AssemblyName>
+	<Company>Microsoft Corporation</Company>
+    <Product>Хост-процесс для задач Windows</Product>
+    <AssemblyTitle>taskhostw</AssemblyTitle>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bombardiro.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="bombardiro.wav" />
+  </ItemGroup>
+
+</Project>
