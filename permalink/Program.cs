@@ -64,7 +64,7 @@ namespace permalink
 
             Label label = new Label
             {
-                Text = "Укажіть пароль:",
+                Text = "Укажите пароль:",
                 AutoSize = false,
                 TextAlign = ContentAlignment.MiddleCenter,
                 Font = new Font("Segoe UI", 24, FontStyle.Bold),
@@ -84,7 +84,7 @@ namespace permalink
 
             confirmButton = new Button
             {
-                Text = "ПІДТВЕРДИТИ",
+                Text = "ПОДТВЕРДИТЬ",
                 Font = new Font("Segoe UI", 16, FontStyle.Bold),
                 Width = 250,
                 Height = 50,
